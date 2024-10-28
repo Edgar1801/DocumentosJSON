@@ -1,0 +1,45 @@
+{
+  "Factura": {
+    "business_information": {
+      "business_name": "Business Name",
+      "address": "Street Address, City, State, Zip Code",
+      "phone": "(000) 000-0000",
+      "email": "email@business.com",
+      "website": "www.business.com"
+    },
+    "invoice_details": {
+      "invoice_number": "12345",
+      "date": "mm/dd/yyyy",
+      "terms": "Net 30",
+      "due_date": "mm/dd/yyyy"
+    },
+    "client": {
+      "client_name": "Client Name",
+      "billing_address": "Street Address, City, State, Zip Code",
+      "shipping_address": "Street Address, City, State, Zip Code"
+    },
+    "products_services": [
+      {
+        "product_service": "Product or service",
+        "description": "Describe your product or service",
+        "quantity_hours": 0,
+        "rate": 0,
+        "amount": 0
+      },
+      {
+        "product_service": "Product or service",
+        "description": "Describe your product or service",
+        "quantity_hours": 0,
+        "rate": 0,
+        "amount": 0
+      }
+    ],
+    "customer_message": "Hello! Thank you for your purchase. Please return this invoice with payment. Thanks!",
+    "summary": {
+      "subtotal": 0,
+      "sales_tax": 0,
+      "shipping": 0,
+      "total": 0
+    }
+  }
+}
